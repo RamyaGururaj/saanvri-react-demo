@@ -8,12 +8,18 @@ import Games from './Pages/Games';
 import Feelitout from './Pages/Feelitout';
 import Community from './Pages/Community';
 import Home from './Pages/Home';
+import Login from './Pages/Login';
+import Userdetails from './Pages/Userdetails';
+import HealthChecker from './Pages/HealthChecker';
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Login/>} />
+        <Route path='/Userdetails' element={<Userdetails/>} />
+        <Route path='/HealthChecker' element={<HealthChecker/>} />
+        <Route path='/Home' element={<Home/>} />
         <Route path='/Tracker' element={<Tracker/>} />
         <Route path='/Remedies' element={<Remedies/>} />
         <Route path='/Recipies' element={<Recipies/>} />
