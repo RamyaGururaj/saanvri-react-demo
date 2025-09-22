@@ -1,17 +1,9 @@
-import React, { useState } from "react";
-import Navbar from "../Components/navbar.jsx";
-import Dashboard from "../Components/Dashboard.jsx";
-
+import react from 'react';
 
 const Home = () => {
- // const [activeSection, setActiveSection] = useState("dashboard");
-
   return (
-    <>
-      <Navbar /*activeSection={activeSection} setActiveSection={setActiveSection}*/ />
-      <Dashboard/>
-    </>
+    <div>Home Page</div>
   );
-};
+}
 
 export default Home;

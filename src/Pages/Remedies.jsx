@@ -1,13 +1,8 @@
 import react from 'react';
-import Remediess from '../Components/Remediess.jsx';
-import Navbar from '../Components/navbar.jsx';
+
 const Remedies = () => {
   return (
-    <>
-    <Navbar />
-    <Remediess />
-    </>
-    
+    <div>Remedies Page</div>
   );
 }
 export default Remedies;

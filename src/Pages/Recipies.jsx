@@ -1,14 +1,8 @@
-import react from 'react'; 
-import Recip from '../Components/Recip.jsx';
-import Navbar from '../Components/navbar.jsx';
+import react from 'react';
 
 const Recipies = () => {
   return (
-    <>
-      <Navbar/>
-      <Recip/>
-    </>
+    <div>Recipies Page</div>
   );
 }
-
 export default Recipies;
